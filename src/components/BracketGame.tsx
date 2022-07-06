@@ -32,8 +32,8 @@ class BracketGame extends React.PureComponent<BracketGameProps> {
     hoveredTeamId: null,
 
     styles: {
-      backgroundColor: '#58595e',
-      hoverBackgroundColor: '#222',
+      backgroundColor: '#fff',
+      hoverBackgroundColor: '#fff',
 
       scoreBackground: '#787a80',
       winningScoreBackground: '#ff7324',
@@ -75,6 +75,8 @@ class BracketGame extends React.PureComponent<BracketGameProps> {
     } = this.props;
 
     const { sides } = game;
+
+    <h1>GGwp</h1>
 
 
     const top = sides[ homeOnTop ? Side.HOME : Side.VISITOR ];

@@ -12,10 +12,6 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moodysalem/react-tournament-bracket.git"
-  },
   "keywords": [
     "react",
     "tournament",
